@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Cricket Score</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ScoreStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-family:cursive;color: #fff;">Live Cricket Score</h1>
+        </header>
+        <main>
+            <div class="scoreboard">
+                <div class="team">
+                    <h2  id="team1Name" style="font-family:cursive;">Team A</h2>
+                    <p id="score1St" style="font-family:cursive;"\>Score: 250/6</p>
+                    <p id="overs1st"></p>
+                </div>
+                <div class="team">
+                    <h2 id="team2Name" style="font-family:cursive;">Team B</h2>
+                    <p id="score2nd" style="font-family:cursive;">Score: 200/5</p>
+                    <p id="overs2nd"></p>
+                </div>
+                
+            </div>
+            <div id="status" class="p-3 text-center">
+                <p style="font-family:cursive;" >Overs: 35</p>
+                <p style="font-family:cursive;color: #fff;" class="text-center">Last Wicket: Player 1 - Bowled</p>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

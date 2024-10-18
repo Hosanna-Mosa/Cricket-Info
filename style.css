@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    font-family:cursive;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    height:100vh;
+    
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-image:linear-gradient(to bottom right,orange,yellow);
+    height:100vh;
+    background-image: url(cricket\ stadium.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top:100px;
+    
+}
+
+.team {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.team h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.score {
+    font-size: 1.5em;
+    color: #dc3545;
+}
+
+.status {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+}
